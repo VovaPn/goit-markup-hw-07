@@ -1029,7 +1029,7 @@ button {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__button:active {
-  border-color: #188CE8;
+  background-color: #188CE8;
 }
 
 .filter__buttons--position {
