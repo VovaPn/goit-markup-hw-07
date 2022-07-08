@@ -192,7 +192,7 @@
     background-color:$accent;
     transition:$transformation;
 
-    &:active{
-        border-color: $button-active-background-color;
-    }
+    &:active {
+            background-color: $button-active-background-color;
+        }
 }
