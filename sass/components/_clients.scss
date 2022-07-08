@@ -1,0 +1,33 @@
+.clients--position{
+    display: flex;
+    &>li:not(:last-child){
+        margin-right: 30px;
+    }
+}
+
+.client__link{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $icons-color;
+    border-radius: var $border-radius;
+    align-items: center;
+    justify-content: center;
+    transition: border-color $transformation;
+    &:hover,
+    &:focus {
+        border-color: $accent;
+        
+        &>.client__icon{
+            fill:$accent
+        }
+    }
+}
+
+.client__icon{
+    display: flex;
+    width: 106px;
+    height: 60px;
+    fill:$icons-color;
+    transition: fill $transformation;
+}
